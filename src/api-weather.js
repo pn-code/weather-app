@@ -2,12 +2,15 @@ import addWeatherItem from "./add-weather";
 
 export default
 function getWeather(){
-    let API = '036ff69bdfee4e9097ce8bc3e7d1e486'
-    let cityName = document.querySelector('.input-city-name').value
-    let weatherAPI = 'https://api.openweathermap.org/data/2.5/weather?q=' + 
-    cityName +'&limit=5&appid='+ API;
+    let API = '036ff69bdfee4e9097ce8bc3e7d1e486';
+    let cityName = document.querySelector('.input-city-name').value;
+    let weatherAPI = 'https://api.openweathermap.org/data/2.5/weather?q=' 
+    + cityName 
+    + '&units=metric&appid='
+    + API;
 
     cityName.replace(" ", "+");
+    console.log(weatherAPI)
 
     fetch(weatherAPI,{
         mode: 'cors'
@@ -27,3 +30,6 @@ function getWeather(){
 
 
 };
+
+
+

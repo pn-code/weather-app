@@ -12,7 +12,7 @@ function addWeatherItem(temp, location){
     newWeatherItem.append(itemTemp);
     //access the inner text to show current temp
     //access the inner text to show current location
-    let itemLocation= document.createElement('div');
+    let itemLocation = document.createElement('div');
     itemLocation.className = 'weather-item-location';
     itemLocation.textContent = location;
     newWeatherItem.append(itemLocation);
