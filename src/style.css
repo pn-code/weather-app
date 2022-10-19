@@ -1,9 +1,10 @@
 body {
-    padding: 0;
     margin: 0;
     background-color: grey;
     color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(./img/background.jpg);
+    background-position: center;
 }
 
 #main {
@@ -11,6 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    min-height: 150%;
 }
 
 .header {
@@ -20,7 +22,7 @@ body {
     font-weight: 800;
     background-color: rgb(31, 30, 30);
     width: 100%;
-    padding-block: 1%;
+    padding-block: .5%;
     align-items: center;
 }
 
@@ -31,13 +33,29 @@ body {
     margin-left: 2%;
 }
 
-.app-contents{
+.app-contents {
     display: flex;
     flex-direction: column;
-    background-color: rgb(31, 30, 30);
+    margin-top: 4%;
+    padding-top: 16px;
+    background-color: rgba(29, 29, 29, 0.8);
     border-radius: 24px;
     height: 440px;
     width: 600px;
+}
+
+.app-contents p {
+    text-align: center;
+}
+
+.app-contents a {
+    text-decoration: none;
+    color: white;
+}
+
+.app-contents a:hover {
+    text-decoration: underline;
+    color: rgba(0, 68, 255, 0.8);
 }
 
 .search-container {
@@ -46,7 +64,7 @@ body {
     width: 80%;
     margin-left: 4%;
     border-radius: 12px;
-    padding-block: 24px;
+    padding-block: 32px;
     padding-inline: 34px;
 }
 
@@ -59,24 +77,26 @@ body {
     width: 50%;
     font-size: 18px;
     padding-block: 4px;
-    padding-left: 8px;
+    padding-left: 12px;
+    border: none;
 }
 
-.search-btn{
+.search-btn {
     padding-inline: 30px;
     border: solid 3px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    border: none;
 }
 
-.search-btn:hover{
-    background-color: rgb(48, 46, 46);
+.search-btn:hover {
+    background-color: rgba(3, 3, 3, 0.5);
     color: rgb(255, 255, 255);
 }
 
 #weather-item {
     color: black;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     margin-inline: 10%;
     padding-top: 2.5%;
     padding-left: 6%;
