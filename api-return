@@ -1,0 +1,40 @@
+{
+    "coord":{
+        "lon":-117.9537,"lat":33.7092
+    },
+    "weather":[
+        {
+            "id":800,
+            "main":"Clear",
+            "description":"clear sky",
+            "icon":"01d"}
+    ],
+    "base":"stations",
+    "main":{
+        "temp":22.01,
+        "feels_like":21.81,
+        "temp_min":18.51,
+        "temp_max":26.37,
+        "pressure":1015,
+        "humidity":59
+    },
+    "visibility":10000,
+    "wind":{
+        "speed":2.06,
+        "deg":130
+    },
+    "clouds":{
+        "all":0
+    },
+    "dt":1666192046,
+    "sys":{
+        "type":2,
+        "id":2076875,
+        "country":"US",
+        "sunrise":1666187984,
+        "sunset":1666228406
+    },
+    "timezone":-25200,
+    "id":5350207,
+    "name":"Fountain Valley",
+    "cod":200}
