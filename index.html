@@ -9,27 +9,25 @@
 <body>
     <div id="main">
         <div class="header">
+            <img id="logo" src=""/>
             <div class="header-text">Weather Application</div>
         </div>
         <div class="app-contents">
-            <section class="add-container">
-                <button class="add-btn">+</button>
+            <div class="search-container">
                 <input class="input-city-name" type="text" placeholder="City Name">
-            </section>
-            <section class="weather-item-container">
-                <div class="weather-item">
-                    
-                    <div class="weather-item-location">
-                        Search for city to reveal its weather.
-                    </div>
-                    <div class="weather-item-temp"></div>
-                    <div class="weather-type"></div>
-                    <div class="temp-lows-highs"></div>
-            </section>
+                <button class="search-btn">Search</button>
+            </div>
+            <div id="weather-item">
+                <h1 class="location"></h1>
+                <h2 class="temperature"></h2>
+                <h2 class="weather"></h2>
+                <h2 class="humidity"></h2>
+                <h2 class="wind"></h2>
+            </div>
+            <p>Photo by <a href="https://unsplash.com/@henrikladewig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Henrik L.</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
         </div>
         <div class="footer">
-            Created by 
-            <a href="https://github.com/pn-code">Philip Nguyen</a> 
+            <a href="https://github.com/pn-code"> Created by Philip Nguyen </a> 
         </div>
     </div>
 </body>
